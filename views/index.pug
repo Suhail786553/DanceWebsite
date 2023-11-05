@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+      body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/dn.png")
+                
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introSection
+             div Welcome to Fitness zone
+             div.small Eat Sleep Gym Repeat
+    section#missionSection
+           h2 Our Mission
+           div.card
+              h3 Card 1
+              div#card-box
+              div#box1
+                  img(src="/static/p1.png")
+           div.card
+              h3 Card 2
+              div#card-box2
+              div#box2
+                  img(src="/static/p2.png")
+           div.card
+              h3 Card 3
+              div#card-box3
+              div#box3
+                  img(src="/static/p3.png")
+              
+    section#sponsorsSection
+             h2 Our Sponsors
+             div#sponsor
+                 img(src="/static/M.jpg",alt="sponsor img",class="spimage")
+                 img(src="/static/R.jpeg",alt="sponsor img",class="spimage")
+                 img(src="/static/skype.png",alt="sponsor img",class="spimage")
+                 img(src="/static/hp.png",alt="sponsor img",class="spimage")
+    footer#footer
+            | our footer here

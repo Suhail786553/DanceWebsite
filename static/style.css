@@ -1,0 +1,131 @@
+#navbar {
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung';
+    padding: 13px, 14px;
+    height: 55px;
+}
+
+#logo img {
+    height: 22px;
+    margin: -3px 24px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    color: black;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 13px;
+    font-size: 30px;
+    color: white;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 84px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg");
+    height: 425px;
+    background-color: red;
+    color: yellow;
+    opacity: 1.4;
+}
+
+#box1>img:nth-child(1) {
+    height: 175px;
+}
+
+#box2>img:nth-child(1) {
+    height: 175px;
+}
+
+#box3>img:nth-child(1) {
+    height: 175px;
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+    color: yellow;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 11px;
+    margin: 0px 20px;
+    width: 30%;
+    height: 74%;
+    display: inline-block;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: large;
+
+
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: pink;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ img.spimage:nth-child(1) {
+    height: 71px;
+    margin: 0 12px;
+}
+
+img.spimage:nth-child(2) {
+    height: 71px;
+    margin: 0 16px;
+}
+
+img.spimage:nth-child(3) {
+    height: 80px;
+    margin: 0 16px;
+}
+
+img.spimage:nth-child(4) {
+    height: 80px;
+    margin: 0 16px;
+} 
+
+
+#footer {
+    background-color: black;
+    height: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
